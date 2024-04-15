@@ -37,7 +37,7 @@ function App() {
 
   return (
     <>
-      {logged ? <Menu /> : <Login login={HandleLogin} />}
+      <Menu/>
       {error ? <Ventana data={objError} /> : null}
     </>
   )
